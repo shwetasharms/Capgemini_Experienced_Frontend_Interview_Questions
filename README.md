@@ -90,3 +90,143 @@ Answer: id is unique per page, used for single elements; class can be used on ma
 Why: Shows you understand performance, document loading, and markup scripting interplay.
 
 Strong answer: Explain placing scripts at end of body vs head; async loads script asynchronously and executes as soon as possible; defer loads async but executes after the document parsing; correct usage.
+Here’s a **senior-level HTML question set** — the kind interviewers use to test *depth, reasoning, and practical experience* (not trivia).
+
+---
+
+## 🔹 Advanced HTML Questions for 5+ Years Frontend Experience
+
+### **1. Explain semantic HTML and why it’s important.**
+
+Tests: understanding of structure, SEO, and accessibility.
+👉 Expect follow-ups like *“When would you use `<article>` vs `<section>`?”* or *“Why avoid excessive `<div>`s?”*
+
+---
+
+### **2. How does HTML5 improve accessibility and SEO?**
+
+Key points: semantic tags, ARIA roles, microdata/schema.org, better heading structure.
+
+---
+
+### **3. What is the difference between `<article>`, `<section>`, `<aside>`, and `<main>`?**
+
+Tests nuanced understanding of semantic structure.
+
+---
+
+### **4. Explain the role and behavior of the `<meta>` viewport tag.**
+
+Expect details on `width=device-width`, `initial-scale`, and mobile rendering.
+
+---
+
+### **5. How does the browser parse and render an HTML page?**
+
+Tests performance insight. Mention DOM construction, render tree, CSSOM, and reflows/repaints.
+
+---
+
+### **6. What are web components, and what problems do they solve?**
+
+Tests modern HTML knowledge. Mention custom elements, Shadow DOM, templates.
+
+---
+
+### **7. What is the difference between `async` and `defer` in script loading?**
+
+Tests performance and rendering optimization knowledge.
+
+---
+
+### **8. What’s the difference between `data-*` attributes and ARIA attributes?**
+
+Shows understanding of semantics vs data storage.
+`data-*` → custom JS data; `aria-*` → accessibility roles/labels.
+
+---
+
+### **9. How would you make an HTML page fully accessible?**
+
+Expect details: correct semantics, alt text, keyboard navigation, ARIA roles, focus management.
+
+---
+
+### **10. What are contenteditable and spellcheck attributes?**
+
+Tests awareness of native browser features.
+
+---
+
+### **11. Explain lazy loading of images (`loading="lazy"`) and its benefits.**
+
+Performance optimization, network efficiency, and Core Web Vitals.
+
+---
+
+### **12. Difference between `<link>` and `<@import>` for CSS.**
+
+`<link>` loads faster, allows preloading; `@import` blocks render and is discouraged.
+
+---
+
+### **13. What are microdata and schema.org used for?**
+
+Structured data for SEO and rich snippets.
+
+---
+
+### **14. How does HTML handle forms and validation?**
+
+Talk about built-in constraints (`required`, `pattern`, `type=email`), `novalidate`, custom validation.
+
+---
+
+### **15. What’s the difference between `<script type="module">` and normal scripts?**
+
+Modules are deferred, scoped, and support import/export syntax.
+
+---
+
+### **16. What are shadow DOM and custom elements?**
+
+Deep dive into component encapsulation and reusability.
+
+---
+
+### **17. How do you ensure cross-browser compatibility in HTML markup?**
+
+Testing, using feature detection, progressive enhancement, avoiding deprecated tags.
+
+---
+
+### **18. Explain `rel="noopener noreferrer"` in `<a>` tags.**
+
+Prevents security risks (tabnabbing) when using `target="_blank"`.
+
+---
+
+### **19. What is the purpose of the `<base>` tag?**
+
+Sets a base URL for all relative links and assets.
+
+---
+
+### **20. How do you optimize HTML for performance?**
+
+Minify HTML, preload key assets, defer scripts, lazy-load media, reduce DOM depth.
+
+---
+
+### 🧠 Bonus “Discussion-Type” Questions
+
+* How do you approach **HTML architecture** in large projects?
+* What’s your opinion on using **BEM/OOCSS** naming conventions?
+* How do you balance **semantic purity vs developer productivity** (e.g., in React)?
+* Have you ever built a **design system** or **component library** with accessibility in mind?
+
+---
+
+**a.** Want me to write **answers for the top 10 of these** (with senior-level reasoning)?
+**b.** Or prefer a **categorized PDF sheet** (Basics / Semantics / Accessibility / Performance / Modern APIs) for interview prep?
+
