@@ -1,11 +1,27 @@
 # Capgemini_Experienced_Frontend_Interview_Questions
 ## HTML 
 
-### 1. What is the difference between block and inline elements in HTML?
+ ### 1. What is the difference between block and inline elements in HTML?
+Block elements (e.g. <div>, <p>, <section>, <article>) always start on a new line and occupy the full available width of their parent container. They can contain both block and inline elements.
+Inline elements (e.g. <span>, <a>, <strong>, <em>) do not start a new line, occupy only as much width as their content, and cannot contain block elements.
+Why it matters: Knowing the difference helps control layout flow and spacing before applying CSS.
+
 ### 2. What is the purpose of the alt attribute in an <img> tag? Why is it important for web accessibility?
-#### Ans- 
+
+The alt attribute provides alternative text describing the image’s content or purpose.
+It is critical for accessibility, because:
+Screen readers announce it for visually impaired users.
+It’s displayed if the image fails to load.
+Search engines use it for SEO and context indexing.
+Best practice: Always write descriptive, meaningful alt text. If the image is purely decorative, use alt="" to ensure it’s ignored by assistive technologies.
+
 ### 3. What is the difference between <div> and <section> elements in HTML?
-#### Ans- 
+<div> is a generic container with no semantic meaning — used for grouping and styling via CSS or scripting.
+<section> is a semantic element that represents a thematically grouped content block (e.g., a chapter, article section, or group of related content with a heading).
+Why it matters:
+<section> improves document structure and accessibility (navigable landmarks).
+<div> should only be used when no more specific semantic tag fits.
+  
 ### 4. What are semantic HTML elements and why should you use them?
 #### Ans. Why it matters: Shows you care about structure, accessibility, SEO, maintainability.
 Strong answer: Mentions tags like <header>, <nav>, <article>, <section>, <footer>, difference vs generic <div>; explains benefits (screen-readers, style hooks, search engines).
